@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+:root {
+  --color-dark: #27292a;
+  --color-darkest: #1f2122;
+  --color-light: #fff;
+  --color-primary: #ec6090;
+  
+
+  --color-bg-body: var(--color-darkest);
+
+  --distance-primary: 50px;
+  --padding-primary: var(--distance-primary);
+  --margin-primary: var(--distance-primary);
+  --border-radius-primary: calc(var(--distance-primary) / 2);
+
+  --font-weight-bold: 900;
+  --font-weight-slim: 400;
+
+  
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wraper-section {
+  padding:calc( var(--padding-primary) );
+  margin: 0 calc( var(--margin-primary) );
+  background-color: var(--color-dark);
+  border-radius: var(--border-radius-primary);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  font-style: none;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color:  var(--color-bg-body);
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Rubik', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.wraper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: var(--color-darkest);
+  padding: var(--padding-primary) ;
+  border-radius: var(--border-radius-primary);
+
+}
+
+
+
+
+
+
+.btn {
+  padding: 15px;
+  border-radius: var(--border-radius-primary);
+  background-color: transparent;
+  border: 1px solid rgb(101, 101, 101); 
+  color: rgb(101, 101, 101);
+  font-size: 15px;
+  transition: 0.6s;
+} 
+
+.btn:hover{
+  background-color: white;
+
+}
+
+
+.Hero-btn {
+  margin-top: 10px;
+  background-color: var(--color-primary);
+}
+
+.btn:hover{
+  background-color: white;
+}
+
+.Hero-btn:hover {
+  background-color: white;
+  color: var(--color-primary);
+
+}
+.btn a ,
+.Hero-btn a{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn a:hover ,
+.Hero-btn a:hover {
+  color: var(--color-primary);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.line-height {
+  padding: 2px;
+  margin: 20px 0;
+  border-radius: 20px;
+  background: var(--color-dark);
 }

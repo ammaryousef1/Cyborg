@@ -1,0 +1,20 @@
+.LiveStream {
+    margin: calc(var(--margin-primary) + 10px) 0;
+}
+.LiveStream-titles {
+    text-align: center;
+}
+
+.LiveStream-Cards {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+
+@media screen  and (max-width: 944px){
+    .LiveStream-Cards {
+        flex-wrap: wrap;
+    }
+}

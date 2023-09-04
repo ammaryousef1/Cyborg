@@ -1,0 +1,6 @@
+.cyborg-footer {
+
+    color: white;
+    text-align: center;
+    margin: calc(var(--margin-primary)/ 1.5);
+}

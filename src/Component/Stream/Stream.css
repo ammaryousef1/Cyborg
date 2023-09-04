@@ -1,0 +1,67 @@
+
+.s-all-streams {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.Streams .live-stream-new {
+    display: flex;
+    background-color: var(--color-darkest);
+    padding: calc(var(--padding-primary) / 2 );
+    width: 60%;
+    border-radius: var(--border-radius-primary);
+    flex-direction: column;
+}
+
+
+.s-all-streams {
+    width: 100%;
+}
+
+@media screen  and (max-width: 950px) {
+    .s-all-streams {
+        flex-wrap: wrap;
+    }
+
+    .Streams .live-stream-new {
+        width: 90%;
+    }
+ 
+}
+
+.Streams .live-stream {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+
+.Streams .live-stream-card {
+    padding: 10px;
+}
+
+.Streams .live-stream-card img {
+    width: 200px;
+    height: 330px; 
+}
+
+.top-streamers {
+    display: flex;
+    background-color: var(--color-darkest);
+    padding: calc(var(--padding-primary) / 2 );
+    width: 40%;
+    overflow-y: auto;
+    height: 570px;
+    border-radius: var(--border-radius-primary);
+    flex-direction: column;
+}
+@media screen and (max-width: 950px){
+    .top-streamers  {
+        width: 100%;
+    }
+}
+.all-streamerscard {
+
+    display: flex;
+    flex-direction: column;
+}

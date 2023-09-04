@@ -1,0 +1,84 @@
+.cyborg-hero {
+    margin-bottom: var(--margin-primary);
+}
+
+.cyborg-hero-imge {
+    height: 400px;
+    border-radius: var(--border-radius-primary);
+    background-image: url('../../../assits/images/banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:  no-repeat;
+}
+
+.cyborg-hero-content {
+    padding: 110px 60px;
+}
+
+
+
+.cyborg-hero-content h5 {
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+}
+
+.cyborg-hero-content p  {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    line-height: 50px;
+    width: 600px;
+}
+.cyborg-hero-content p  span {
+    color: var(--color-primary);
+}
+
+@media screen  and (max-width: 1000px){
+  
+    .cyborg-hero-content h5 {
+        margin-bottom: 20px;
+    }
+    .cyborg-hero-content p  {
+        font-size: 35px;
+        width: 400px;
+    }
+}
+@media screen  and (max-width: 768px){ 
+    .cyborg-hero-content p  {
+        font-size: 35px;
+        width: 350px;
+    }
+}
+
+@media screen  and (max-width: 560px){ 
+    .cyborg-hero-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cyborg-hero-content p  {
+        text-align: center;
+        font-size: 25px;
+        width: 300px;
+    }
+}
+
+@media screen  and (max-width: 480px){ 
+    .cyborg-hero-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cyborg-hero-content h5 { 
+        text-align: center;
+        font-size: 14px;
+    }
+    .cyborg-hero-content p  {
+        text-align: center;
+        font-size: 20px;
+        width: 250px;
+    }
+}

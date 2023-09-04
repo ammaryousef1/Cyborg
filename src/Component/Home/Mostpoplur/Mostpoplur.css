@@ -1,0 +1,18 @@
+.cyborg-mostpopular {
+    background-color: var(--color-darkest);
+    border-radius: var(--border-radius-primary);
+    padding: 30px 0 ;
+}
+
+.cyborg-mostpopular-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.cyborg-mostpopular-title {
+    position: relative;
+    left: 100px;
+}

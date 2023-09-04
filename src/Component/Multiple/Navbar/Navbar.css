@@ -1,0 +1,74 @@
+.Navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 70px ;
+} 
+.Navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: rgb(63, 63, 63);
+    margin-top: calc(var(--margin-primary) / 2);
+    position: relative;
+}
+
+.navlink {
+    bottom: 15px;
+    position: relative;
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+}
+.navlink:hover {
+   color: white;
+}
+
+.profile-img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--color-dark);
+    padding:calc( var(--padding-primary) / 6);
+    border-radius: var(--border-radius-primary);
+    transition: 0.3s;
+}
+
+.profile-img:hover {
+    color: white;
+    background-color: var(--color-primary);
+}
+
+.profile-img img {
+    border-radius: var(--border-radius-primary);
+}
+
+.Navbar-dropdown {
+    display: none;
+    position: relative;
+    margin: -100px 0px;
+}
+
+.Navbar-dropdown-content  {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    text-align: center;
+    right: 20px;
+    position: absolute;
+    background-color:var(--color-primary);
+    color: rgb(63, 63, 63);
+    border-radius: calc(var(--border-radius-primary) / 2);
+    padding: calc( var(--padding-primary) / 2) var(--padding-primary);
+}
+
+@media screen  and (max-width: 1000px) {
+    .Navbar-dropdown {
+        display: block;
+    }
+    .Navbar-menu {
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+h2{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 800;
+
+}
+h2 span { 
+    color: var(--color-primary);
+}

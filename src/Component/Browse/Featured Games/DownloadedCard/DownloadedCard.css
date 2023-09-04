@@ -1,0 +1,55 @@
+.DownloadedCard {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    overflow-x: auto;
+}
+
+.DownloadedCard img {
+    border-radius: 10px;
+    height: 70px;
+    width: 70px;
+}
+
+.download-title {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+
+.download-title h5 {
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 5px;
+
+}
+.download-title  .subtitle {
+    color: var(--color-primary);
+
+}
+
+.download-title .icons {
+    margin-top: 5px;
+    display: flex;
+    color: white;
+}
+
+.download-title .icons span {
+    display: flex;
+    gap: 5px;
+}
+
+.download-title button {
+    border: none;
+    width: 35px;
+    height: 35px;
+    background-color:var(--color-dark);
+    border-radius: 50%;
+    color: var(--color-primary);
+}
+.footer {
+    color: var(--color-primary);
+}

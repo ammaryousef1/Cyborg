@@ -1,0 +1,19 @@
+.PopularLiveStream {
+    padding: calc(var(--padding-primary) / 2);
+    background-color: var(--color-darkest);
+    border-radius: var(--border-radius-primary);
+    margin: var(--margin-primary) 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.PopularLiveStream-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+}
+.PopularLiveStream-card {
+    padding: 10px;
+}

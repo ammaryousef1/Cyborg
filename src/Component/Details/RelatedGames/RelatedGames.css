@@ -1,0 +1,22 @@
+.RelatedGames {
+   margin-top: var(--margin-primary);
+   
+}
+
+.all-NameGame {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.one-NameGame {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.one-NameGame img {
+    height: 100px;
+
+}

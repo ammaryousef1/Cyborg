@@ -1,0 +1,10 @@
+.cyborg-GamingLibrary-title {
+    margin-bottom: 30px;
+    margin-right: 100px;
+}
+.cyborg-GamingLibrary {
+    background-color: var(--color-darkest);
+    margin-top: var(--margin-primary);
+    padding: var(--padding-primary);
+    border-radius: var(--border-radius-primary);
+}

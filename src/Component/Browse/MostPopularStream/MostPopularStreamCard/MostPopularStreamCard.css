@@ -1,0 +1,44 @@
+.MostPopularStreamCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
+.MostPopularStreamCard-img  img {
+    width:270px;
+    border-radius: 30px;
+}
+
+
+@media screen  and (max-width:500px) {
+    .MostPopularStreamCard-img  img {
+
+        width: 250px;
+        height: 250px;
+    }
+    .MostPopularStreamCard {
+        justify-content: center;
+    }
+} 
+
+@media screen  and (max-width:485px) {
+    .MostPopularStreamCard-img  img {
+        width:230px;
+        height: 230px;
+    }
+}
+
+.MostPopularStreamCard-title {
+    display: flex;
+    padding: 10px 0;
+
+}
+
+.MostPopularStreamCard-title img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}

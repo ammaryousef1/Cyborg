@@ -1,0 +1,73 @@
+
+.profile .profile-data {
+    gap: 20px;
+    border-radius: var(--border-radius-primary);
+    padding: 20px;
+    background-color: var(--color-darkest);
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1155px) {
+    .profile .profile-data  {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .profile-data-img img {
+        width: 100%;
+    }
+}
+
+
+
+
+
+.profile .profile-data-box {
+    padding: 10px;
+}
+
+.profile-data-box p {
+    font-size: 16px;
+   max-width: 1000px;
+
+}
+
+.profile .profile-data .profile-data-img img  {
+    border-radius: var(--border-radius-primary);
+}
+
+
+.profile .profile-data .profile-data-in-data {
+    color: white;
+    background-color: var(--color-dark);
+    border-radius: var(--border-radius-primary);
+    width: 100%;
+}
+.profile .profile-data .profile-data-in-data  span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-primary);
+    padding: 10px 20px;
+}
+
+
+.line {
+    border-radius: 20px;
+    background-color: var(--color-dark);
+    padding: 2px;
+    margin: 50px 0;
+}
+
+
+
+
+.MostPopular-Clips {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+} 

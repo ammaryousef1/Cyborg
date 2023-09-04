@@ -1,0 +1,84 @@
+.cyborg-CardGamingLibrary {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cyborg-CardGamingLibrary-imge img {
+    border-radius: calc(var(--border-radius-primary) );
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 170px;
+}
+
+.cyborg-CardGamingLibrary-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    right: 70px;
+}
+.cyborg-CardGamingLibrary-game {
+    margin-left: 100px;
+}
+
+
+.cyborg-CardGamingLibrary span {
+    color: rgb(84, 84, 84);
+
+}
+
+@media screen and (max-width: 1200px){
+    .cyborg-CardGamingLibrary-imge img {
+        width:150px;
+    }
+    .cyborg-CardGamingLibrary-box  {
+        position: relative;
+        right: 20px;
+    }
+    .cyborg-CardGamingLibrary-game {
+        margin-left: 50px;
+    }
+    
+}
+@media screen and (max-width: 910px){
+
+    .cyborg-CardGamingLibrary {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cyborg-CardGamingLibrary-imge  {
+        padding-top:50px;
+    }
+    .cyborg-CardGamingLibrary-box {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .cyborg-CardGamingLibrary-box  {
+        position: relative;
+        right: 0px;
+    }
+    .cyborg-CardGamingLibrary-game {
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .cyborg-CardGamingLibrary-box  {
+        position: relative;
+        right: 0px;
+    }
+    .cyborg-CardGamingLibrary-game {
+        margin-bottom: 15px;
+        margin-left: 3px;
+    }
+}

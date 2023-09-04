@@ -1,0 +1,21 @@
+.MostPopularStream {
+    background-color: var(--color-darkest);
+    border-radius: var(--border-radius-primary);
+    padding: var(--padding-primary) ;
+    margin: var(--margin-primary) 0 ;
+}
+
+.MostPopularStream-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media screen  and (max-width:836px) {
+    .MostPopularStream-card  {
+        display: flex;
+        justify-content: center;
+    }
+}
+
